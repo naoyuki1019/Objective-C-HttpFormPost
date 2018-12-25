@@ -1,7 +1,7 @@
 	HttpFormPost * ins = [[HttpFormPost alloc] init];
 
 	//post先urlの設定
-	ins.url = [NSURL URLWithString:@"http://gifu-sk.aa2.netvolante.jp/HttpFormPost-test/test.php"];
+	ins.url = [NSURL URLWithString:@"http://xxxx.jp/HttpFormPost-test/test.php"];
 
 	//boundaryの設定
 	ins.boundary = @"---tekitou--tekitou--tekitou---";
